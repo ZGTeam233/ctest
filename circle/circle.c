@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 #define PI 3.14159
 
 int main() {
+    setlocale(LC_ALL, "Chinese");
     float radius;
     float Circumference;
     float Square;
